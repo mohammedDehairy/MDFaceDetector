@@ -34,15 +34,15 @@ installation :
 
 Usage :
 
-1. you should instantiate MDFaceDetectorViewController by the class method 
+- you should instantiate MDFaceDetectorViewController by the class method 
 
 +(MDFaceDetectorViewController*)faceDetector
 
 as it detects the device type (ipad or iphone) and load the appropriate xib
 
-2. present the view controller any way want as any view controller
+- present the view controller any way want as any view controller
 
-3 .immplement the MDFaceDetectorDelegate protocole with two methods
+- immplement the MDFaceDetectorDelegate protocole with two methods
 
 -(void)MDFaceDetectorFaceTapped:(MDFaceDetectorViewController*)faceDetector AtRect:(CGRect)faceRect;
 
