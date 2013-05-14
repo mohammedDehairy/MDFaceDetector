@@ -146,19 +146,7 @@
         return v;
     }
     return nil;
-   /* UIView *v = [[UIView alloc] initWithFrame:rect];
-    v.tag = tag;
-    
-    v.backgroundColor = [UIColor clearColor];
-    v.layer.borderWidth = 1;
-    v.layer.borderColor = [[UIColor redColor] CGColor];
-    
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(TapAnnotaion:)];
-    
-    tap.numberOfTapsRequired = 1;
-    [v addGestureRecognizer:tap];
-    
-    return v;*/
+  
 }
 
 -(void)TapAnnotaion:(UITapGestureRecognizer*)gesture
